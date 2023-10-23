@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Web Page</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box">
+            <h3>Start Time</h3>
+            <h4>@ViewBag.FechaActual.ToString("MMMM") @ViewBag.FechaActual.Day, @ViewBag.FechaActual.Year @ViewBag.FechaActual.ToString("h:mm tt")</h4>
+
+        </div>
+        <div class="box">
+            <h3>End Time</h3>
+            <h4>@ViewBag.FechaAComparar.ToString("MMMM") @ViewBag.FechaAComparar.Day, @ViewBag.FechaAComparar.Year @ViewBag.FechaAComparar.ToString("h:mm tt")</h4>
+        </div>
+    </div>
+    <div class="container2">
+        <h3>Time Remaining</h3>
+        <h4>@ViewBag.Diferencia.Days Day(s), @ViewBag.Diferencia.Hours Hours(s), @ViewBag.Diferencia.Minutes Minute(s)</h4>
+        <h5>Remaining</h5>
+    </div>
+</body>
+
+</html>

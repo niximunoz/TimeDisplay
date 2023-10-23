@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "uplyUdrvZtYLe5yP/CfdeBLmBuBfLTZzCqUOETpayrs=",
+  "Source": "TimeDisplay",
+  "BasePath": "_content/TimeDisplay",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TimeDisplay\\wwwroot",
+      "Source": "TimeDisplay",
+      "ContentRoot": "C:\\Users\\nixim\\Desktop\\C#-.NET-SONDA-Septiembre-2023\\Asignaciones\\TimeDisplay\\wwwroot\\",
+      "BasePath": "_content/TimeDisplay",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\nixim\\Desktop\\C#-.NET-SONDA-Septiembre-2023\\Asignaciones\\TimeDisplay\\wwwroot\\css\\style.css",
+      "SourceId": "TimeDisplay",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nixim\\Desktop\\C#-.NET-SONDA-Septiembre-2023\\Asignaciones\\TimeDisplay\\wwwroot\\",
+      "BasePath": "_content/TimeDisplay",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}
